@@ -1,0 +1,41 @@
+#app {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#form {
+    display: flex;
+    justify-content: start;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+#form input.btn {
+    background-color: rgb(31, 117, 246);
+    width: 130px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: medium;
+    
+}
+
+#form input.btn:hover {
+    background-color: rgb(31, 102, 208);  
+    transition: .5s;
+}
+
+input {
+    
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+
